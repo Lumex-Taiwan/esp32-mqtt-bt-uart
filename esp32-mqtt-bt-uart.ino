@@ -1,4 +1,4 @@
-// Rev.1  
+// Rev. 1.0  
 // Wireless Internet Connection with MQTT Client.    
 // Live Configurable through Bluetooth Serial - Wifi(SSID, KEY), MQTT(Server, Topic)
 // Bluetooth Serial is able to be turn off through MQTT.
@@ -459,7 +459,7 @@ void wifi_setup() {
     Serial.printf("at80=(1,3,.)");
     while (Serial.read() != 'E') {}
     delay(250);
-    Serial.printf("at81=(1,5,Rev.5)");
+    Serial.printf("at81=(1,5,Rev. 1.0)");
     while (Serial.read() != 'E') {}
     delay(250);      
     connect_count++;
