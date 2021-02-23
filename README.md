@@ -23,3 +23,7 @@
   * Wifi Password(password) can be changed by inputing "password=(your own password)"
   * Bluetooth device name(Bluetooth_ssid) can be changed by inputing "bluetooth name=(your own Bluetooth ID)"
   *  MQTT server(mqtt_server) can be changed by inputing "broker=(your own broker name)"
+
+
+### Note:
+**PubSubClient library is required.  Please installed this library through "Include Library > Manage Libraries".**
